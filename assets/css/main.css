@@ -808,6 +808,11 @@ a.back-to-top:focus {
 
 .counter-section .counter {
     padding: 30px 0;
+    transition: all 0.2s ease-in-out;
+}
+.counter-section .counter:hover{
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .counter-section .counter .icon {
@@ -818,6 +823,7 @@ a.back-to-top:focus {
     font-size: 60px;
     color: #fff;
 }
+
 
 .counter-section .counter p {
     font-size: 15px;
@@ -832,12 +838,21 @@ a.back-to-top:focus {
     font-weight: 400;
     text-transform: uppercase;
 }
+.counter-section .counter:hover i{
+    color: #284B7E;
+}
+.counter-section .counter:hover p{
+    color: #284B7E;
+}
+.counter-section .counter:hover span{
+    color: #284B7E;
+}
 
 
 /* Sponsors Area */
 
 #sponsors {
-    background: #294C7F;
+    /* background: #294C7F; */
 }
 
 #sponsors .spnsors-logo {
@@ -1630,7 +1645,10 @@ a.back-to-top:focus {
 .footer-area {
     background: #284B7E;
 }
-
+.footer-logo h3 a{
+    background: #294C7F;
+    padding: 40px;
+}
 .footer-links {
     color: #fff;
     font-size: 60px;
@@ -2167,6 +2185,46 @@ a.back-to-top:focus {
     border-color: #fff;
 }
 
-border-color: #fff;
-
-}
+/*--------------------------------------------------------------
+# Gallery Section
+--------------------------------------------------------------*/
+#gallery {
+    padding: 60px;
+    overflow: hidden;
+  }
+  
+  #gallery .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  #gallery .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #62e1e9;
+  }
+  
+  #gallery .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #62e1e9;
+  }
+  
+  #gallery .swiper-slide-active {
+    text-align: center;
+  }
+  
+  @media (min-width: 992px) {
+    #gallery .swiper-wrapper {
+      padding: 40px 0;
+    }
+  
+    #gallery .swiper-slide-active {
+      border: 5px solid #62e1e9;
+      padding: 4px;
+      background: #fff;
+      z-index: 1;
+      transform: scale(1.15);
+      margin-top: 6px;
+    }
+  }
