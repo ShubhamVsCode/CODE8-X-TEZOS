@@ -64,6 +64,49 @@ ul li,
 ol li {
     list-style: none;
 }
+.hero{
+    padding: 100px;
+    position: relative;
+    background-image: url("../img/background/layer_3_copy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text{
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+.hero hr{
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+.hero-text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.hero-text h1{
+    font-size: 60px;
+
+}
+.hero-text a{
+    background: #E928E9;
+    margin-top: 30px;
+}
+.hero-text h1 span{
+    color: #E928E9;
+}
+.hero-img{
+    padding: 40px;
+}
+.hero-img img{
+    width: 350px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
 
 .hero-heading {
     font-size: 40px;
@@ -251,16 +294,20 @@ ol li {
 }
 
 .btn-common {
-    background-color: #284B7E;
+    background-color: #fff;
     position: relative;
+    color: #1753e1;
     z-index: 1;
 }
 
 .btn-header {
     border-radius: 50px;
 }
-
-.nav-btn:hover {
+.nav-btn{
+    position: relative;
+    left: 60px;
+}
+.nav-btn:hover .btn{
     color: #fff;
 }
 
@@ -476,7 +523,7 @@ a.back-to-top:focus {
 }
 
 .top-nav-collapse {
-    background: #fff;
+    background: #0e5aed;
     z-index: 999999;
     top: 0px !important;
     min-height: 58px;
@@ -495,15 +542,15 @@ a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
-    color: #212121 !important;
+    color: #fff !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
-    color: #284B7E !important;
+    color: #fff !important;
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-    color: #284B7E !important;
+    color: #fff !important;
 }
 
 .indigo {
@@ -511,7 +558,7 @@ a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    color: #000;
+    color: #fff;
     padding: 0 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -556,17 +603,18 @@ a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active>a,
 .navbar-expand-lg .navbar-nav li a:focus {
-    color: #284B7E;
+    color: #fff;
     outline: none;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:focus,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: #284B7E !important;
+    color: #fff !important;
 }
 
 .navbar {
     padding: 0;
+    
 }
 
 .navbar li.active a.nav-link {
@@ -584,7 +632,7 @@ a.back-to-top:focus {
     position: absolute;
     z-index: 99;
     min-width: 210px;
-    background-color: #fff;
+    background-color: #0e5aed;
     white-space: nowrap;
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -1075,7 +1123,7 @@ a.back-to-top:focus {
 /* Services Item */
 
 .services {
-    background: #284B7E;
+    background: #060b6a;
 }
 
 .padding-none {
@@ -1115,15 +1163,15 @@ a.back-to-top:focus {
     -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .icon i {
-    width: 50px;
-    height: 50px;
+.services-item .icon img{
+    width: 40px;
+    height: 40px;
     display: inline-block;
+    position: relative;
+    right: 140px;
     line-height: 50px;
     font-size: 48px;
-    text-align: center;
     margin-bottom: 15px;
-    color: #fff;
     border-radius: 0;
     transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
@@ -1134,15 +1182,16 @@ a.back-to-top:focus {
 .services-item .services-content h3 {
     font-size: 20px;
     letter-spacing: 0.5px;
+    text-align: left;
     font-weight: 400;
     color: #fff;
+    color: #e726e6;
 }
 
-.services-item .services-content h3 a {
-    font-size: 20px;
+.services-item .services-content p {
+    text-align: justify;
     letter-spacing: 0.5px;
     font-weight: 400;
-    color: #fff;
 }
 
 .services-item:hover {
@@ -1965,7 +2014,10 @@ a.back-to-top:focus {
 }
 
 .time-countdown {
-    margin: 15px 0px 50px 0;
+    margin: 70px 0px 50px 0;
+    width: 650px;
+    position: relative;
+    right: 60px;
 }
 
 
